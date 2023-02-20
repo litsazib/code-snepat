@@ -1,0 +1,14 @@
+  const voicePromise = new Promise((resolve,reject)=>{
+    if(voices.length > 0) {
+      resolve(voices)
+    }else {
+      reject(new Error('voice not support'))
+    }
+  })
+
+  voicePromise
+    .then((res)=>{
+    })
+    .catch((err)=>{
+
+    })
