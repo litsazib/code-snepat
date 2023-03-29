@@ -1,0 +1,10 @@
+  useEffect(()=>{
+    (async()=>{
+      try {
+        const result = await axios.get('https://jsonplaceholder.typicode.com/posts')
+        console.log(result.data)
+      } catch (error) {
+        console.log(error.message)
+      }
+    })()
+  },[])
