@@ -1,0 +1,6 @@
+| cpanel: https://192.185.191.51:2083
+| UserName: demoapinet
+| PassWord: APIltd@2021
+
+
+http://192.168.10.12:3000/
